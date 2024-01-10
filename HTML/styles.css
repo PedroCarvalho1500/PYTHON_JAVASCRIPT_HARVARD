@@ -1,0 +1,43 @@
+h1
+{
+    color: rgb(43, 13, 155); 
+    text-align: center;
+}
+
+ul > li {
+    color: green;
+}
+
+a{
+    color: rgb(247, 150, 5);
+}
+
+a[href="https://facebook.com"] {
+    color: rgb(94, 11, 172);
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: greenyellow;
+
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+/* IF THE WIDTH OF THE PAGE IS 600px OR LARGER */
+@media (min-width: 600px){
+    body {
+        background-color: blueviolet;
+    }
+}
+
+/* IF THE WIDTH OF THE PAGE IS 599px OR FEWER */
+@media (max-width: 599px){
+    body{
+        background-color: deepskyblue;
+    }
+}
