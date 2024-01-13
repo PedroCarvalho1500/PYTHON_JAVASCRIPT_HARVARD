@@ -1,0 +1,36 @@
+{% extends "tasks/layout.html" %}
+
+        {% block head %}
+        <style>
+            .colored{
+                background-color: darkgoldenrod;
+                border: 1px solid rgb(84, 12, 199);
+            }
+
+            body{
+                background-color: black;
+            }
+
+            li[role="task"]{
+                color:rgb(255, 252, 247);
+            }
+        </style>
+        {% endblock %}
+
+    </head>
+    {% block body %}
+        <body>
+            <h1> Add Task </h1>
+            <form action="{% url 'tasks:add' %}" method="post">
+                {% csrf_token %}
+                <!-- <input type="text" name="text" class="colored">
+                <input type="submit"> -->
+                <div class="colored"> 
+                    {{ form }}
+                    <input type="submit">
+                </div>
+            </form>
+            <a href="{%url 'tasks:index' %}"> View Tasks</a>
+        </body>
+    {% endblock %}
+</html>
