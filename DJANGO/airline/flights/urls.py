@@ -5,6 +5,10 @@ from flights import views
 
 #python3 manage.py makemigrations
 
-urlpatterns = [
+app_name = "flights"
 
+
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("<int:flight_id>/", views.flight, name="flight")
 ]
