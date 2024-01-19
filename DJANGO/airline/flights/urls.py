@@ -4,6 +4,7 @@ from flights import views
 
 
 #python3 manage.py makemigrations
+#python3 manage.py migrate
 
 app_name = "flights"
 

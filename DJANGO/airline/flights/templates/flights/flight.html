@@ -8,5 +8,15 @@
         <li> Destination: {{flight.destination}}</li>
         <li> Origin: {{flight.duration}}</li>
     </ul>
+
+    <h2> Passengers </h2>
+    <ul>
+        {% for passenger in passengers %}
+            <a href="http://google.com"><li> Passenger {{passenger}}</li></a>
+            
+        {% empty %}
+            <li> No passengers. </li>
+        {% endfor %}
+    </ul>
     <a href="{% url 'flights:index' %}"> View all Flights</a>
 {% endblock %}
