@@ -10,7 +10,9 @@
                     .then(response => response.json())
                     .then(data => {
                         console.log(data);
+
                         const currency = document.querySelector('#currency').value.toLowerCase();
+
                         const rate = data.usd[currency];
                         //console.log(rate);
                         if (rate === undefined){
@@ -20,9 +22,13 @@
                         }
                         
                     })
+
                     .catch(error => {
                         console.log('Error:', error);
                     })
+
+                    
+
                     return false
                 }
 
