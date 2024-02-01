@@ -3,15 +3,52 @@
     <head>
         <title>My Webpage</title>
         <style>
+
+            @keyframes hide{
+                0%{
+                    opacity: 1;
+                    height: 100%;
+                    line-height: 100%;
+                    padding: 20px;
+                    margin-bottom: 10px;
+                }
+
+                
+                75%{
+                    opacity: 0;
+                    height: 100%;
+                    line-height: 100%;
+                    padding: 20px;
+                    margin-bottom: 10px;
+                }
+
+                100%{
+                    opacity: 0;
+                    height: 0px;
+                    line-height: 0px;
+                    padding: 0px;
+                    margin-bottom: 0px;
+                }
+            }
+
             .post {
                 background-color: #77dd11;
                 padding: 20px;
                 margin: 10px;
+                animation-name: hide;
+                animation-duration: 3s;
+                animation-fill-mode: forwards;
+                animation-play-state: paused;
             }
 
             body {
                 padding-bottom: 50px;
             }
+
+            .hide{
+                float: right;
+            }
+
         </style>
         <script>
 
@@ -30,6 +67,18 @@
                     load();
                 }
             };
+
+            document.addEventListener('click', event => {
+                const element = event.target
+                console.log(event.target);
+                if (element.className === 'hide'){
+                    element.parentElement.style.animationPlayState = 'running';
+                    element.parentElement.addEventListener('animationend', () => {
+                        element.parentElement.remove()
+                    })
+                }
+            })
+
 
             // Load next set of posts
             function load() {
@@ -53,7 +102,7 @@
                 // Create new post
                 const post = document.createElement('div');
                 post.className = 'post';
-                post.innerHTML = contents;
+                post.innerHTML = `${contents} <button class="hide">Hide</button>`;
 
                 // Add post to DOM
                 document.querySelector('#posts').append(post);
