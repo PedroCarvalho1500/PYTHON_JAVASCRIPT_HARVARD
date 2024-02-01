@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stars</title>
+        <link href="{% static 'my_skills/styles.css' %}" rel="stylesheet">
+        
+
+    <body>
+        <div id="container">
+            <h1> MY FAVORITE TEST TOOLS</h1>
+        {% for tool,rating in tools.items %}
+                <div id="star_container">
+                    <div id="tool_title">{{tool}}</div> 
+                    <div>
+                        {% with count=5 %}
+                        
+                        {% for i in max_value %}
+                            {% if rating >= i %}
+                                <img src="{% static 'my_skills/star.png' %}" class="colored" height="60" width="100"> 
+                            {% else %}
+                                <img src="{% static 'my_skills/star.png' %}" class="not_colored" height="60" width="100">
+                            {% endif %}
+                        
+                        {% endfor %}
+    
+                        
+                    </div>
+                    
+                    {% endwith %}
+                </div>
+        </div>
+        {% endfor %}
+    </body>
+
+</html>

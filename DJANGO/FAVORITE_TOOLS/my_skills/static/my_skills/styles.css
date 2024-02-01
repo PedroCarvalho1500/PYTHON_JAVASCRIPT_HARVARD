@@ -1,0 +1,44 @@
+@keyframes move{
+                
+    0%{
+        filter: invert(2%) sepia(22%) saturate(435%) hue-rotate(2deg) brightness(25%) contrast(58%);
+    }
+
+    50%{
+        filter: invert(13%) sepia(38%) saturate(511%) hue-rotate(8deg) brightness(55%) contrast(78%);
+    }
+
+    75%{
+        filter: invert(22%) sepia(52%) saturate(521%) hue-rotate(11deg) brightness(87%) contrast(88%);
+    }
+
+
+    100%{
+        filter: invert(33%) sepia(68%) saturate(531%) hue-rotate(12deg) brightness(101%) contrast(98%);
+    }
+}
+
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+}
+
+div{
+    padding-top: 30px;
+    background-color: rgb(221, 221, 236);
+}
+
+#tool_title{
+    text-align: left;
+    font-size: 30px;
+}
+
+img[class="colored"]{
+    animation-name: move;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1; 
+    padding-top: 15px;
+}
+

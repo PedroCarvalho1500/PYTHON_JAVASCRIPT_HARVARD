@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stars</title>
+        <style>
+            @keyframes move{
+                
+                0%{
+
+                }
+
+                50%{
+                    filter: invert(63%) sepia(98%) saturate(551%) hue-rotate(17deg) brightness(104%) contrast(98%);
+                }
+
+                100%{
+                    filter: invert(63%) sepia(98%) saturate(551%) hue-rotate(17deg) brightness(104%) contrast(98%);
+                }
+            }
+
+
+            img{
+                animation-name: move;
+                animation-duration: 4s;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite; 
+            }
+        </style>
+        <script></script>
+
+    <body>
+        <div id="container">
+            <div id="star_container">
+                <img src="star.png" id="star1" height="80" width="120">     
+                <img src="star.png" id="star2" height="80" width="120"> 
+                <img src="star.png" id="star3" height="80" width="120"> 
+                <img src="star.png" id="star4" height="80" width="120"> 
+                <img src="star.png" id="star5" height="80" width="120"> 
+            </div>
+        </div>
+    </body>
+
+</html>
