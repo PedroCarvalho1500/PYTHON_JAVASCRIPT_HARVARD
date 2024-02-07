@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Counter</title>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                let counter = 0;
+
+                /*document.querySelector('#increase').onclick = () => {
+                    counter++;
+                    document.querySelector('h1').innerHTML = counter
+                }
+
+                document.querySelector('#decrease').onclick = () => {
+                    counter--;
+                    document.querySelector('h1').innerHTML = counter
+                }*/
+
+                document.addEventListener('click', event => {
+                    const element_id = event.target.id;
+                    console.log(element_id);
+                    if (element_id === 'increase'){
+                        counter++;
+                    }else{
+                        counter--;
+                    }
+                    document.querySelector('h1').innerHTML = counter
+                })
+            })
+        </script>
+    </head>
+
+    <body>
+        <h1>0</h1>
+        <button id="increase">+</button>
+        <button id="decrease">-</button>
+    </body>
+</html>
