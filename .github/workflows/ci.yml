@@ -10,4 +10,4 @@ jobs:
             token: ${{ secrets.MY_SECRET_HARVARD_TEST }}
       - name: Run Django unit tests
         run: |
-          pip3 install --user django
+          python --version
