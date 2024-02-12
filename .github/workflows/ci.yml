@@ -7,9 +7,9 @@ jobs:
   test_project:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v1
+      - uses: action/checkout@v2
         with:
-          repository: PYTHON_JAVASCRIPT_HARVARD
+            token: ${{ secrets.MY_SECRET_HARVARD_TEST }}
       - name: Run Django unit tests
         run: |
           pip3 install --user django
