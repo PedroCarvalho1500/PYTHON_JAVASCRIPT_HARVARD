@@ -5,7 +5,7 @@ jobs:
   test_project:
     runs-on: ubuntu-latest
     steps:
-      - uses: checkout@v3
+      - uses: action/checkout@v2
         with:
             token: ${{ secrets.MY_SECRET_HARVARD_TEST }}
       - name: Run Django unit tests
