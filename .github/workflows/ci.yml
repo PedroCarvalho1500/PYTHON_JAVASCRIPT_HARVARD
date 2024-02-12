@@ -1,7 +1,6 @@
 name: Testing
-on: 
-  push:
-    branches: [ $master ]
+on: push
+
 
 jobs:
   test_project:
