@@ -1,11 +1,13 @@
 name: Testing
-on: push
+on: 
+  push:
+    branches: [ $default-branch ]
 
 jobs:
   test_project:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v2
+      - uses: action/checkout@HARVARD_COURSES
         with:
             token: ${{ secrets.MY_SECRET_HARVARD_TEST }}
       - name: Run Django unit tests
