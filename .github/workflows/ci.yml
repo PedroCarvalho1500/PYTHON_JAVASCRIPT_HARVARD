@@ -17,5 +17,4 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}." 
       - run: python3 --version
       - run: pip3 install django
-      - run: pip3 install selenium
-      - run: python3 DJANGO/airline/selenium/tests.py
+      - run: python3 DJANGO/airline/manage.py test
