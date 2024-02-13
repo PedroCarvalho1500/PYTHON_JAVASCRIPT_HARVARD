@@ -15,6 +15,5 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }} |
-          python3 DJANGO/airline manage.py test |
-          python3 --version
+          cd DJANGO/airline manage.py test
       - run: echo "🍏 This job's status is ${{ job.status }}."
