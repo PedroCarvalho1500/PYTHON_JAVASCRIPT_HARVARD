@@ -59,7 +59,7 @@ class FlightTestCase(TestCase):
         c = Client()
         response = c.get(f"/flights/{max_id}")
         self.assertEqual(response.status_code,301)
-
+#RUNNING
     def test_flight_page_passengers(self):
         f = Flight.objects.get(pk=1)
         p = Passenger.objects.create(first="Alice", last="Adams")
