@@ -1,0 +1,145 @@
+id,name,team,total_goals,total_assists,market_value
+16,Manuel Neuer,Bayern Munich,0,23,€5.00m
+17,Bruno Fernandes,Man Utd,167,132,€70.00m
+18,Toni Kroos,Real Madrid,73,164,€12.00m
+19,Antoine Griezmann,Atlético Madrid,265,119,€25.00m
+20,Thiago Alcântara,Liverpool,48,63,€10.00m
+21,Alisson Becker,Liverpool,1,10,€32.00m
+22,Andrew Robertson,Liverpool,23,84,€35.00m
+23,Joshua Kimmich,Bayern Munich,54,120,€60.00m
+24,João Félix,Barcelona,82,41,€30.00m
+25,Frenkie de Jong,Barcelona,37,47,€70.00m
+26,Marco Verratti,Al-Arabi SC,13,79,€18.00m
+27,Jadon Sancho,Bor. Dortmund,89,83,€25.00m
+28,Casemiro,Man Utd,55,51,€30.00m
+29,Mohamed Elneny,Arsenal,20,25,€4.50m
+30,Roberto Firmino,Al-Ahli,175,118,€10.00m
+31,Phil Foden,Man City,105,65,€130.00m
+32,Jordan Henderson,Ajax,39,81,€6.00m
+33,David Alaba,Real Madrid,49,75,€25.00m
+34,Mason Mount,Man Utd,66,61,€40.00m
+35,Thomas Müller,Bayern Munich,284,271,€10.00m
+36,Romelu Lukaku,AS Roma,308,93,€30.00m
+37,Jorginho,Arsenal,48,33,€15.00m
+38,César Azpilicueta,Atlético Madrid,19,64,€3.00m
+39,Luis Suárez,Miami,483,265,€4.00m
+40,Riyad Mahrez,Al-Ahli,148,116,€16.00m
+41,Vinícius Júnior,Real Madrid,94,80,€150.00m
+42,Thibaut Courtois,Real Madrid,0,20,€30.00m
+43,Marcus Rashford,Man Utd,136,64,€60.00m
+44,Heung-min Son,Tottenham,227,97,€50.00m
+45,Raphaël Varane,Man Utd,21,8,€25.00m
+46,Ángel Di María,Benfica,178,267,€4.00m
+47,Keylor Navas,Paris SG,0,16,€2.00m
+48,Marquinhos,Paris SG,38,13,€55.00m
+49,Nicolas Pépé,Trabzonspor,91,46,€10.00m
+50,Wilfred Ndidi,Leicester,24,20,€16.00m
+51,N'Golo Kanté,Al-Ittihad,28,35,€10.00m
+52,Lautaro Martínez,Inter,155,48,€110.00m
+53,Gianluigi Donnarumma,Paris SG,0,34,€40.00m
+54,Jamie Vardy,Leicester,224,83,€1.00m
+55,Federico Valverde,Real Madrid,23,27,€100.00m
+56,Kai Havertz,Arsenal,119,53,€60.00m
+57,Leon Goretzka,Bayern Munich,90,75,€30.00m
+58,David de Gea,Without Club,0,11,€5.00m
+59,Ederson,Man City,0,43,€40.00m
+60,Raúl Jiménez,Fulham,132,55,€6.00m
+61,Carvajal,Real Madrid,16,81,€12.00m
+62,Lucas Hernández,Paris SG,7,15,€45.00m
+63,Edinson Cavani,Boca Juniors,380,73,€1.00m
+64,Leroy Sané,Bayern Munich,120,121,€70.00m
+65,Alexandre Lacazette,Olympique Lyon,250,86,€10.00m
+66,Aymeric Laporte,Al-Nassr,26,12,€25.00m
+67,Declan Rice,Arsenal,22,24,€110.00m
+68,Yannick Carrasco,Al-Shabab,101,92,€18.00m
+69,Rui Patrício,AS Roma,0,38,€2.00m
+70,Kalidou Koulibaly,Al-Hilal,22,15,€11.00m
+71,Miralem Pjanić,Sharjah FC,77,126,€4.00m
+72,Jules Koundé,Barcelona,17,14,€50.00m
+73,Álvaro Morata,Atlético Madrid,215,81,€20.00m
+74,Fabinho,Al-Ittihad,44,36,€35.00m
+75,Raphinha,Barcelona,81,62,€50.00m
+76,Rodri,Man City,32,37,€110.00m
+77,Giovani Lo Celso,Tottenham,38,41,€16.00m
+78,Rodrygo,Real Madrid,73,49,€100.00m
+79,Lucas Moura,São Paulo,117,100,€5.00m
+80,Presnel Kimpembe,Paris SG,4,2,€15.00m
+81,Bernardo Silva,Man City,101,88,€80.00m
+82,Memphis Depay,Atlético Madrid,172,97,€12.00m
+83,Mauro Icardi,Atlético Madrid,172,97,€12.00m
+84,Wojciech Szczęsny,Juventus,0,21,€8.00m
+85,Ferran Torres,Barcelona,51,34,€35.00m
+86,Youssef En-Nesyri,Sevilla FC,89,12,€18.00m
+87,Leonardo Bonucci,Fenerbahce,48,13,€1.30m
+88,Achraf Hakimi,Paris SG,39,58,€65.00m
+89,Carvajal,Real Madrid,16,81,€12.00m
+90,Lucas Hernández,Paris SG,7,15,€45.00m
+91,Edinson Cavani,Boca Juniors,380,73,€1.00m
+92,Leroy Sané,Bayern Munich,120,121,€70.00m
+93,Alexandre Lacazette,Olympique Lyon,250,86,€10.00m
+94,Aymeric Laporte,Al-Nassr,26,12,€25.00m
+95,Declan Rice,Arsenal,22,24,€110.00m
+96,Yannick Carrasco,Al-Shabab,101,92,€18.00m
+97,Rui Patrício,AS Roma,0,38,€2.00m
+98,Kalidou Koulibaly,Al-Hilal,22,15,€11.00m
+99,Miralem Pjanić,Sharjah FC,77,126,€4.00m
+100,Jules Koundé,Barcelona,17,14,€50.00m
+101,Álvaro Morata,Atlético Madrid,215,81,€20.00m
+102,Fabinho,Al-Ittihad,44,36,€35.00m
+103,Raphinha,Barcelona,81,62,€50.00m
+104,Rodri,Man City,32,37,€110.00m
+105,Giovani Lo Celso,Tottenham,38,41,€16.00m
+106,Rodrygo,Real Madrid,73,49,€100.00m
+107,Lucas Moura,São Paulo,117,100,€5.00m
+108,Presnel Kimpembe,Paris SG,4,2,€15.00m
+109,Bernardo Silva,Man City,101,88,€80.00m
+110,Memphis Depay,Atlético Madrid,172,97,€12.00m
+111,Mauro Icardi,Galatasaray,256,63,€18.00m
+112,Wojciech Szczęsny,Juventus,0,21,€8.00m
+113,Ferran Torres,Barcelona,51,34,€35.00m
+114,Youssef En-Nesyri,Sevilla FC,90,12,€18.00m
+115,Leonardo Bonucci,Fenerbahce,48,13,€1.30m
+116,Achraf Hakimi,Paris SG,39,58,€65.00m
+117,João Cancelo,Barcelona,22,66,€30.00m
+118,Serge Gnabry,Bayern Munich,127,74,€45.00m
+119,Matthijs de Ligt,Bayern Munich,34,13,€65.00m
+120,Niklas Süle,Bor. Dortmund,22,14,€22.00m
+121,Lucas Vázquez,Real Madrid,54,83,€5.00m
+122,Pedri,Barcelona,22,20,€80.00m
+123,Kieran Trippier,Newcastle,14,98,€11.00m
+124,Federico Chiesa,Juventus,75,52,€40.00m
+125,Hakim Ziyech,Galatasaray,133,141,€9.50m
+126,Raúl Jiménez,Fulham,132,55,€6.00m
+127,Jamie Vardy,Leicester,224,83,€1.00m
+128,Luis Alberto,Miami,483,265,€4.00m
+129,Nicolas Pépé,Trabzonspor,91,46,€10.00m
+130,Edin Džeko,Fenerbahce,347,147,€3.30m
+131,Lucas Moura,São Paulo,117,100,€5.00m
+132,Bernardo Silva,Man City,101,88,€80.00m
+133,Serge Gnabry,Bayern Munich,127,74,€45.00m
+134,Matthijs de Ligt,Bayern Munich,34,13,€65.00m
+135,Leon Goretzka,Bayern Munich,90,75,€30.00m
+136,Niklas Süle,Bor. Dortmund,22,14,€22.00m
+137,Álvaro Morata,Atlético Madrid,215,81,€20.00m
+138,Pedri,Barcelona,22,20,€80.00m
+139,Alexandre Lacazette,Olympique Lyon,250,86,€10.00m
+140,Kalidou Koulibaly,Al-Hilal,22,15,€11.00m
+141,Gabriel Barbosa,Flamengo,220,51,€9.00m
+142,Everton Ribeiro,EC Bahia,103,120,€2.50m
+143,Pedro Geromel,Grêmio,18,10,€200k
+144,Thiago Galhardo,Goiás,93,31,€800k
+145,Lucas Veríssimo,Al-Duhail SC,14,8,€6.00m
+146,Luciano Neves,São Paulo,123,35,€2.50m
+147,Lucas Braga,Shimizu S-Pulse,23,15,€1.50m
+148,Vitor Bueno,Cerezo Osaka,57,28,€2.50m
+149,Bruno Henrique,Flamengo,108,75,€2.00m
+150,Gustavo Scarpa,Atlético-MG,69,80,€6.00m
+151,Martin Benítez,América-MG,47,49,€1.40m
+152,Raphael Veiga,Palmeiras,101,50,€18.00m
+153,Jô,Arsenal,48,33,€15.00m
+154,Cássio Ramos,Corinthians,0,46,€500k
+155,Alisson Becker,Liverpool,1,10,€32.00m
+156,Lucas Paquetá,West Ham,49,37,€65.00m
+157,Everaldo Stum,EC Bahia,106,32,€700k
+158,Hulk,Atlético-MG,406,219,€2.00m
+159,Marquinhos Gabriel,Criciúma EC,58,45,€450k
