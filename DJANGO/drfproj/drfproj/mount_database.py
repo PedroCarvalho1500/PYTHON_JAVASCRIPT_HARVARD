@@ -19,20 +19,6 @@ from ddt import ddt, data, unpack
 from selenium.webdriver.support.ui import Select
 
 soccer_players = [
-    "Roni",
-    "Pedro",
-    "Dudu",
-    "André",
-    "Márcio Araújo",
-    "Matheus Henrique",
-    "Rodrigo Caio",
-    "Marcos Paulo",
-    "Jadson",
-    "Renato Augusto",
-    "Roger Guedes",
-    "Tiago Volpi",
-    "Júlio César",
-    "Dedé",
     "Maurício",
     "Pedro Rocha",
     "Carlos Sánchez",

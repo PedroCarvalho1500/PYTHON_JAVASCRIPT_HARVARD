@@ -3,4 +3,5 @@ from .models import Player
 
 # Register your models here.
 admin.site.register(Player)
+#admin.site.register(Token)
 # Register your models here.
